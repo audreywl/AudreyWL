@@ -39,9 +39,26 @@
 						<div class="inner">
 							<h1>MAME Arcade Cabinet</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<p>The MAME, or Multi Arcade Machine Emulator, Cabinet was a semester-long project with myself and 3 other Olin College students.
+								The MAME cabinet is named after particular program it runs, which can emulate any of thousands of classic arcade games on a PC.
+								The trick for us was to take this publicly-available program and make a physical home for it that not only emulated in the games, but the experience of playing them in an arcade.
+							</p>
+							<p>To do this, we first had to build an arcade cabinet to house the emulator. There is a large hobbyist community around building MAME cabinets,
+								which makes things like the buttons and joysticks relatively easy to procure, but our MAME team chose not to use anyone else's specs for the cabinet design. We combined several different ideas and reference designs,
+							then CAD the ideal cabinet in SolidWorks. Members of the team then used those plans to cut the entire cabinet out of MDF, assembled, painted, and decorated it.
+							Key features include the ergonomically angled control panel, a slide-out debugging keyboard accessible through a latch under the control panel, and chrome vinyl decorations. </p>
+							<p>The internals of the cabinet were also treated to the design process. Although the MAME program takes care of running the games, choosing which game to run without a "frontend" program is nigh impossible.
+							For our frontend, we chose Hyperspin, which allows potential players to select from a "wheel" of games with the joysticks, and features swanky visuals and preview video clips of each game.
+						This design choice, like many others, was informed by the cabinet's location on a college campus.
+						We knew our audience would likely include few veteran retro-game enthusiasts, and many more younger people looking for a quick fun game.
+						In this scenario, preview visuals like the ones Hyperspin provides are important so that users can choose a game without knowing explicitly what they're looking for.</p>
+						<p>Another decision informed by our audience of first-time arcade gamers was to use LED buttons and the LEDBlinky program.
+							These buttons light up differently depending on the game being played, emulating the original layout and coloring of the game's controls, providing an intuitive sense of how to play.
+							When a game is started, each one also blinks and anounces its function using text-to-speech. </p>
+							<p>Like any project, we ran into some problems in the implementation, but nothing fatal. Getting Hyperspin, our button controller, LEDBlinky, and MAME to all "talk to" eachother correctly was difficult to say the least.
+								I have to give credit to SimplyAustin's extensive YouTube tutorials for a lot of help with that. We also ran into problems with school administration about the final home of the finished cabinet,
+								and it ended up getting moved around several times, breaking some components. I spent my free time while on campus in Summer 2017 working on library's <a href="ABE.html">ABE calendar</a>
+								getting it back in working condition. In the end, the library group was so impressed with the finished cabinet that they agreed to keep it there for the forseeable future.</a>
 						</div>
 					</div>
 
