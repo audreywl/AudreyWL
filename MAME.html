@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MAME | Audrey Lewis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Audrey Lewis</span>
+								</a>
+
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>MAME Arcade Cabinet</h1>
+							<p>The MAME, or Multi Arcade Machine Emulator, Cabinet was a semester-long project with myself and 3 other Olin College students.
+								The MAME cabinet is named after particular program it runs, which can emulate any of thousands of classic arcade games on a PC.
+								The trick for us was to take this publicly-available program and make a physical home for it that not only emulated in the games, but the experience of playing them in an arcade.
+							</p>
+							<p>To do this, we first had to build an arcade cabinet to house the emulator. There is a large hobbyist community around building MAME cabinets,
+								which makes things like the buttons and joysticks relatively easy to procure, but our MAME team chose not to use anyone else's specs for the cabinet design. We combined several different ideas and reference designs,
+							then CAD the ideal cabinet in SolidWorks. Members of the team then used those plans to cut the entire cabinet out of MDF, assembled, painted, and decorated it.
+							Key features include the ergonomically angled control panel, a slide-out debugging keyboard accessible through a latch under the control panel, and chrome vinyl decorations. </p>
+							<p>The internals of the cabinet were also treated to the design process. Although the MAME program takes care of running the games, choosing which game to run without a "frontend" program is nigh impossible.
+							For our frontend, we chose Hyperspin, which allows potential players to select from a "wheel" of games with the joysticks, and features swanky visuals and preview video clips of each game.
+						This design choice, like many others, was informed by the cabinet's location on a college campus.
+						We knew our audience would likely include few veteran retro-game enthusiasts, and many more younger people looking for a quick fun game.
+						In this scenario, preview visuals like the ones Hyperspin provides are important so that users can choose a game without knowing explicitly what they're looking for.</p>
+						<p>Another decision informed by our audience of first-time arcade gamers was to use LED buttons and the LEDBlinky program.
+							These buttons light up differently depending on the game being played, emulating the original layout and coloring of the game's controls, providing an intuitive sense of how to play.
+							When a game is started, each one also blinks and anounces its function using text-to-speech. </p>
+							<p>Like any project, we ran into some problems in the implementation, but nothing fatal. Getting Hyperspin, our button controller, LEDBlinky, and MAME to all "talk to" eachother correctly was difficult to say the least.
+								I have to give credit to SimplyAustin's extensive YouTube tutorials for a lot of help with that. We also ran into problems with school administration about the final home of the finished cabinet,
+								and it ended up getting moved around several times, breaking some components. I spent my free time while on campus in Summer 2017 working on library's <a href="ABE.html">ABE calendar</a>
+								getting it back in working condition. In the end, the library group was so impressed with the finished cabinet that they agreed to keep it there for the forseeable future.</a>
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Get in touch</h2>
+							<form method="post" action="#">
+								<div class="field half first">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="field half">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="field">
+									<textarea name="message" id="message" placeholder="Message"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send" class="special" /></li>
+								</ul>
+							</form>
+						</section>
+						<section>
+							<h2>Follow</h2>
+							<ul class="icons">
+								<li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+							<h2><a href="/documents/AudreyLewisResume.pdf" target="_blank">Résumé</a></h2>
+						</section>
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
